@@ -3,10 +3,10 @@
     Our team
   </h1>
   <ul class="list-inline">
-    <% ["paul", "john", "georges"].each do |member| %>
+    <% ["anne", "seb", "romain"].each do |member| %>
       <li>
         <h3><%= member.capitalize %></h3>
-        <%= image_tag "https://placehold.it/100x100", class: "img-circle" %>
+        <%= image_tag "#{member}.jpg", class: "img-circle" %>
       </li>
     <% end %>
   </ul>
